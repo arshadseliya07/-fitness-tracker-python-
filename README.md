@@ -1,18 +1,27 @@
-Fitness Tracker Project 
-A Python-based fitness tracking system that records and analyzes workout and health data to help users monitor their fitness progress over time.
-Features
+# 🏃 Fitness Tracker — Python CLI Application
 
-Track daily workout activities and calories 
-Monitor fitness metrics over time
-Analyze progress using Python data analysis
-Generate fitness insights from recorded data
+A command-line fitness tracking system that records, analyzes 
+and reports on daily health data using Python.
 
-Technologies Used
-Python
-Data Analysis
-Object Oriented Programming
+## Features
+- Create and update user profiles
+- Log daily steps, calories, sleep and water intake
+- View fitness summaries and trends
+- NumPy-powered data analysis
+- AI health assistant powered by Groq (Llama 3.1)
+- Download personal fitness reports as CSV
 
-How to Run
-pythonpython Fitness_tracker.py
-Author
+## Technologies Used
+- Python — Core application logic
+- Pandas & NumPy — Data analysis
+- CSV — Data storage
+- Groq API — AI health suggestions (Llama 3.1)
+
+## How to Run
+pip install pandas numpy groq
+python Fitness_tracker.py
+
+## Author
 Arshad Seliya — Data Analyst & Python Developer
+LinkedIn: linkedin.com/in/arshad-seliyaa49706397
+GitHub: github.com/arshadseliya07
